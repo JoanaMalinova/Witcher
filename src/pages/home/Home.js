@@ -52,19 +52,19 @@ function Home() {
                 <div className={styles["right-game"]} style={rightPositionStyles}>
                    <ul role="list" className={styles["games-list"]}>
                     <li>
-                        <a>The Witcher</a>
+                        <a>The W<span className={styles.red}>i</span>tcher</a>
                     </li>
                     <li>
-                        <a>The Witcher 2: Assassins of Kings</a>
+                        <a>The W<span className={styles.red}>i</span>tcher 2: Assassins of Kings</a>
                     </li>
                     <li>
-                        <a>The Witcher 3: Wild Hunt</a>
-                        <ul>
+                        <a>The W<span className={styles.red}>i</span>tcher 3: W<span className={styles.red}>i</span>ld Hunt</a>
+                        <ul className={styles["witcher-3-list"]}>
                             <li>
                                 <a href="">Hearts of Stone</a>
                             </li>
                             <li>
-                                <a href="">Blood and Wine</a>
+                                <a href="">Blood and W<span className={styles.red}>i</span>ne</a>
                             </li>
                         </ul>
                     </li>
