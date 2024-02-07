@@ -9,7 +9,7 @@ function Home() {
                 <nav className={styles.navigation}>
                     <ul role="list">
                         <li>Games</li>
-                        <li>Series</li>
+                        <li>Ser<span className={styles["red-nav"]}>i</span>es</li>
                         <li>Books</li>
                     </ul>
                 </nav>
