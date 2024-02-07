@@ -34,3 +34,30 @@ span.red{
     height: 100vh;
     margin-left: -70px;
 }
+
+.heading-wrapper{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.heading-wrapper blockquote{
+    font-family: 'Quicksand', sans-serif;    
+    font-style: italic;
+    font-size: 1.2rem;
+    text-shadow: none;
+    color: rgb(156, 156, 156);
+}
+
+.heading-wrapper blockquote p{
+    text-align: left;    
+    margin-bottom: 20px;
+}
+
+.heading-wrapper blockquote span{
+    display: block;
+    text-align: right;
+    font-weight: 500;
+}
