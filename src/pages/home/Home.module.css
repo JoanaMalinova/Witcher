@@ -164,3 +164,15 @@ span.red {
     right: -50%; 
     width: 50%;
 }
+
+.right-game .games-list{
+    font-size: 1.6rem;
+    color: rgb(156, 156, 156);
+    font-family: "Witcher", sans-serif;
+    height: 100%;
+    padding: 20vh 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}

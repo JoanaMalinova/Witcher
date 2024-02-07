@@ -50,7 +50,7 @@ function Home() {
             <section className={styles.games}>
                 <div className={styles["left-game"]} style={leftPositionStyles} ></div>
                 <div className={styles["right-game"]} style={rightPositionStyles}>
-                   <ul role="list">
+                   <ul role="list" className={styles["games-list"]}>
                     <li>
                         <a>The Witcher</a>
                     </li>
@@ -60,8 +60,12 @@ function Home() {
                     <li>
                         <a>The Witcher 3: Wild Hunt</a>
                         <ul>
-                            <li>The Witcher 3: Wild Hunt - Hearts of Stone</li>
-                            <li>The Witcher 3: Wild Hunt - Blood and Wine</li>
+                            <li>
+                                <a href="">Hearts of Stone</a>
+                            </li>
+                            <li>
+                                <a href="">Blood and Wine</a>
+                            </li>
                         </ul>
                     </li>
                    </ul>
