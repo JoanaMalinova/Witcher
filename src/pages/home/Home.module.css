@@ -35,6 +35,23 @@ span.red{
     margin-left: -70px;
 }
 
+.right-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 8vh;
+}
+
+.navigation{
+    margin-left: -200px;
+}
+
+.navigation ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.3rem;
+}
+
 .heading-wrapper{
     height: 80vh;
     display: flex;
