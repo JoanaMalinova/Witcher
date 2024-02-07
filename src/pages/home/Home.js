@@ -4,7 +4,10 @@ function Home() {
 
     return (
         <section className={styles.banner}>
-            <img src="images/larger/banner.jpg" alt="witcher-banner" />
+            <video autoPlay="autoplay" muted="muted" loop="loop" className={styles["banner-video"]} >
+                <source src="images/fog-animation.mov" type="video/mp4"  />
+            </video>
+            <img src="images/larger/banner.png" alt="witcher-banner" />
             <div className={styles["right-container"]}>
                 <nav className={styles.navigation}>
                     <ul role="list">

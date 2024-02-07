@@ -9,6 +9,21 @@
     align-items: center;
     text-shadow: 8px 3px 4px rgba(201, 201, 201, 0.48);
     font-family: "Witcher", sans-serif;
+    position: relative;
+    /* color: white; */
+}
+
+.banner>*{
+    z-index:1;
+}
+
+.banner-video{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+    opacity: 0.1;
 }
 
 .banner .heading-wrapper {
@@ -32,7 +47,8 @@ span.red {
 .banner img {
     object-fit: cover;
     height: 100vh;
-    margin-left: -70px;
+    margin-left: -100px;
+    z-index: -1;
 }
 
 .right-container {
