@@ -6,7 +6,9 @@
 .banner{
     width: 100%;
     display: flex;
-    align-items: center;    
+    align-items: center;  
+    text-shadow: 8px 3px 4px rgba(201,201,201,0.48);  
+    font-family: "Witcher", sans-serif;
 }
 
 .banner .heading-wrapper{
@@ -20,7 +22,7 @@
 
 .banner .larger{
     font-size: 90px;  
-    font-family: "Witcher", sans-serif;
+   
 }
 
 span.red{
