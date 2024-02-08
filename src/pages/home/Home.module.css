@@ -5,7 +5,7 @@
 
 .home-wrapper {
     position: relative;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .banner {
@@ -151,6 +151,7 @@ span.red {
     position: absolute;   
     height: 100%;
     z-index: 3;
+    transition: all .3s ease-in;
 }
 
 .left-game {   
@@ -162,7 +163,7 @@ span.red {
 .right-game {  
     background-color: rgb(86, 81, 81);   
     right: -50%; 
-    width: 50%;
+    width: 50%;    
 }
 
 .right-game .games-list{
