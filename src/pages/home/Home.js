@@ -2,22 +2,23 @@ import styles from "./Home.module.css";
 import { useState } from "react";
 
 function Home() {
-    const [leftPosition, setLeftPosition] = useState("");
-    const [rightPosition, setRightPosition] = useState("");
+
+    const [position, setPosition] = useState("");   
 
     const onGamesClick = () => {
-        setLeftPosition("0");
-        setRightPosition("0");
-        console.log(leftPosition);
-        console.log(rightPosition);
+        setPosition("0");       
     };
 
+    const onClose =() =>{
+        setPosition("-50%");
+    }
+
     const leftPositionStyles = {
-        left: leftPosition,
+        left: position,
     };
 
     const rightPositionStyles = {
-        right: rightPosition,
+        right: position,
     };
 
     return (
@@ -93,6 +94,7 @@ function Home() {
                     className={styles["right-game"]}
                     style={rightPositionStyles}
                 >
+                    <span className={styles.close} onClick={onClose}><i class="fa-solid fa-xmark"></i></span>
                     <ul role="list" className={styles["games-list"]}>
                         <li>
                             <a>

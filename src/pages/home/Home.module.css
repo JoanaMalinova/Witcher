@@ -185,3 +185,22 @@ span.red {
 .witcher-3-list li{
     margin-top: 30px;
 }
+
+.left-game iframe{
+    border-radius: 10px;
+    border: 0;
+}
+
+.close{
+    font-size: 35px;
+    color: rgb(156, 156, 156);
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    transition: all .5s ease-out;
+}
+
+.close:hover{
+    color: red;
+    cursor: pointer;
+}
