@@ -1,30 +1,53 @@
 .right-side {
     background: url(/public/images/larger/witcher3game.jpg) center / cover;
     right: -50%;
-    width: 50%;   
 }
 
 .right-side .games-list {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     color: rgb(156, 156, 156);
     font-family: "Witcher", sans-serif;
     height: 100%;
-    padding: 20vh 10vw;
+    padding: 20vh 7vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     background-color: rgba(86, 81, 81, 0.597);
-    backdrop-filter: blur(3px);     
+    backdrop-filter: blur(3px); 
+    text-align: center;    
 }
 
 .right-side .games-list a {
     cursor: pointer;
+    text-shadow: 4px 2px 6px rgba(62,59,59,0.6);
+    transition: all .6s ease;
+}
+
+.witcher-3-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    list-style-type: none;
 }
 
 .witcher-3-list li {
-    margin-top: 30px;
+    margin-top: 30px;        
 }
+
+.right-side li a:hover {
+    color: whitesmoke;
+    letter-spacing: 1px;
+}
+
+.right-side .red {
+    transition: color .6s ease;
+}
+
+.right-side li a:hover .red {
+    color: red;
+}
+
 
 .close {
     font-size: 35px;

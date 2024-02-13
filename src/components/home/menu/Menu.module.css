@@ -9,6 +9,7 @@
 .menu > * {
     position: absolute;
     height: 100%;
+    width: 50vw;
     z-index: 3;
     transition: all 0.3s ease-in;
 }

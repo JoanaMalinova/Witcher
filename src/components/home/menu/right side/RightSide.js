@@ -27,11 +27,11 @@ function RightSide({positionStyle, onClose}){
                 </a>
                 <ul className={styles["witcher-3-list"]}>
                     <li>
-                        <a href="">Hearts of Stone</a>
+                        <a href="">...Hearts of Stone</a>
                     </li>
                     <li>
                         <a href="">
-                            Blood and W
+                            ...Blood and W
                             <span className={styles.red}>i</span>ne
                         </a>
                     </li>
