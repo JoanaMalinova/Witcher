@@ -1,0 +1,10 @@
+.left-game {
+    background-color: rgb(156, 156, 156);
+    left: -50%;
+    width: 50%;
+}
+
+.left-game iframe {
+    border-radius: 10px;
+    border: 0;
+}
