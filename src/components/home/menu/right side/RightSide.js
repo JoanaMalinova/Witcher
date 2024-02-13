@@ -4,7 +4,7 @@ function RightSide({positionStyle, onClose}){
 
     return(
         <div
-        className={styles["right-game"]}
+        className={styles["right-side"]}
         style={positionStyle}
     >
         <span className={styles.close} onClick={onClose}><i class="fa-solid fa-xmark"></i></span>

@@ -1,10 +1,10 @@
-.right-game {
-    background-color: rgb(86, 81, 81);
+.right-side {
+    background: url(/public/images/larger/witcher3game.jpg) center / cover;
     right: -50%;
-    width: 50%;
+    width: 50%;   
 }
 
-.right-game .games-list {
+.right-side .games-list {
     font-size: 1.6rem;
     color: rgb(156, 156, 156);
     font-family: "Witcher", sans-serif;
@@ -12,11 +12,13 @@
     padding: 20vh 10vw;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-around;
+    background-color: rgba(86, 81, 81, 0.597);
+    backdrop-filter: blur(3px);     
 }
 
-.right-game .games-list a {
+.right-side .games-list a {
     cursor: pointer;
 }
 
@@ -31,6 +33,7 @@
     top: 10px;
     right: 30px;
     transition: all 0.5s ease-out;
+    z-index: 10;
 }
 
 .close:hover {

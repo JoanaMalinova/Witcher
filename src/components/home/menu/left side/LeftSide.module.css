@@ -1,10 +1,10 @@
-.left-game {
+.left-side {
     background-color: rgb(156, 156, 156);
     left: -50%;
     width: 50%;
 }
 
-.left-game iframe {
+.left-side iframe {
     border-radius: 10px;
     border: 0;
 }

@@ -23,7 +23,8 @@
 
 .banner .heading-wrapper {
     text-align: center;
-    margin-left: -80px;
+    margin-left: -140px;
+    width: 40vw;
 }
 
 .banner .smaller {

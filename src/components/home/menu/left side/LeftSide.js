@@ -3,7 +3,7 @@ import styles from "./LeftSide.module.css"
 function LeftSide({positionStyle}){
 
     return(
-        <div className={styles["left-game"]} style={positionStyle}>
+        <div className={styles["left-side"]} style={positionStyle}>
             <iframe
                 width="250"
                 height="200"
