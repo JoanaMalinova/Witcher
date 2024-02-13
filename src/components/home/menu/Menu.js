@@ -12,9 +12,7 @@ function Menu({ setPosition, position }) {
         left: position,
     };
 
-    const rightPositionStyles = {
-        right: position,
-    };
+    const rightPositionStyles = position;
 
     return (
         <section className={styles.menu}>

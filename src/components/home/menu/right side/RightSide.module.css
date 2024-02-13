@@ -1,6 +1,7 @@
 .right-side {
     background: url(/public/images/larger/witcher3game.jpg) center / cover;
     right: -50%;
+    transition: all .4s ease-in;
 }
 
 .right-side .games-list {
