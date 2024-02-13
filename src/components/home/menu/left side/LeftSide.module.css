@@ -1,9 +1,16 @@
 .left-side {
     background-color: rgb(156, 156, 156);
     left: -50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-right: 5px solid whitesmoke; */
 }
 
 .left-side iframe {
     border-radius: 10px;
-    border: 0;
+    border: none;  
+    -webkit-box-shadow: 1px -1px 30px 5px rgba(0,0,0,0.41);
+    -moz-box-shadow: 1px -1px 30px 5px rgba(0,0,0,0.41);
+    box-shadow: 1px -1px 30px 5px rgba(0,0,0,0.41);
 }
