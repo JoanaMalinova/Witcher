@@ -1,0 +1,127 @@
+.banner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-shadow: 8px 3px 4px rgba(201, 201, 201, 0.48);
+    font-family: "Witcher", sans-serif;
+    position: relative;
+    /* color: white; */
+}
+
+.banner > * {
+    z-index: 1;
+}
+
+.banner-video {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+    opacity: 0.2;
+}
+
+.banner .heading-wrapper {
+    text-align: center;
+    margin-left: -80px;
+}
+
+.banner .smaller {
+    font-size: 60px;
+    color: rgb(86, 81, 81);
+}
+
+.banner .larger {
+    font-size: 90px;
+}
+
+span.red {
+    color: red;
+}
+
+.banner img {
+    object-fit: cover;
+    height: 100vh;
+    margin-left: -100px;
+    z-index: -1;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 8vh;
+}
+
+.navigation {
+    margin-left: -200px;
+    color: rgb(86, 81, 81);
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    text-shadow: none;
+}
+
+.navigation ul li {
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    padding: 2px 10px;
+}
+
+.navigation ul li::after {
+    content: "";
+    transform: translate3d(-100%, 0, 0);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: red;
+    transition: all 0.2s ease-out;
+}
+
+.navigation ul li:hover {
+    color: black;
+}
+
+.navigation ul .red-nav {
+    transition: color 0.2s ease-out;
+}
+
+.navigation ul li:hover .red-nav {
+    color: red;
+}
+
+.navigation ul li:hover::after {
+    transform: translate3d(0, 0, 0);
+}
+
+.heading-wrapper {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.heading-wrapper blockquote {
+    font-family: "Quicksand", sans-serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    text-shadow: none;
+    color: rgb(156, 156, 156);
+}
+
+.heading-wrapper blockquote p {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.heading-wrapper blockquote span {
+    display: block;
+    text-align: right;
+    font-weight: 500;
+}

@@ -1,0 +1,66 @@
+.games {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left-game,
+.right-game { 
+    position: absolute;   
+    height: 100%;
+    z-index: 3;
+    transition: all .3s ease-in;
+}
+
+.left-game {   
+    background-color: rgb(156, 156, 156); 
+    left: -50%; 
+    width: 50%; 
+}
+
+.right-game {  
+    background-color: rgb(86, 81, 81);   
+    right: -50%; 
+    width: 50%;    
+}
+
+.right-game .games-list{
+    font-size: 1.6rem;
+    color: rgb(156, 156, 156);
+    font-family: "Witcher", sans-serif;
+    height: 100%;
+    padding: 20vh 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.right-game .games-list a{
+    cursor: pointer;
+}
+
+.witcher-3-list li{
+    margin-top: 30px;
+}
+
+.left-game iframe{
+    border-radius: 10px;
+    border: 0;
+}
+
+.close{
+    font-size: 35px;
+    color: rgb(156, 156, 156);
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    transition: all .5s ease-out;
+}
+
+.close:hover{
+    color: red;
+    cursor: pointer;
+}
