@@ -42,6 +42,8 @@
 .right-side li a:hover {
     color: whitesmoke;
     letter-spacing: 1px;
+    border: 1px solid whitesmoke;
+    padding: 10px 16px;
 }
 
 .right-side .red {
