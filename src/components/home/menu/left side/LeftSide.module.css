@@ -2,14 +2,27 @@
     background-color: rgb(186, 186, 186);
     left: -50%;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;    
+    justify-content: space-evenly;   
+    font-family: "Quicksand", sans-serif; 
+    color: whitesmoke;
 }
 
 .left-side iframe {
     border-radius: 10px;
     border: none;  
-    -webkit-box-shadow: 1px -1px 30px 5px rgba(0,0,0,0.41);
+    /* -webkit-box-shadow: 1px -1px 30px 5px rgba(0,0,0,0.41);
     -moz-box-shadow: 1px -1px 30px 5px rgba(0,0,0,0.41);
-    box-shadow: 1px -1px 30px 5px rgba(0,0,0,0.41);
+    box-shadow: 1px -1px 30px 5px rgba(0,0,0,0.41); */
+}
+
+.left-side .description{
+    width: 80%;
+    text-align: justify;
+}
+
+.left-side h1{
+    font-size: 36px;
+    color: whitesmoke;
 }
