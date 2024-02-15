@@ -110,11 +110,13 @@ span.red {
 }
 
 .heading-wrapper blockquote {
-    font-family: "Quicksand", sans-serif;
+    font-family: "Lato", sans-serif;
     font-style: italic;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-shadow: none;
     color: rgb(156, 156, 156);
+    width: 80%;
+    margin: 0 auto;
 }
 
 .heading-wrapper blockquote p {
@@ -125,5 +127,5 @@ span.red {
 .heading-wrapper blockquote span {
     display: block;
     text-align: right;
-    font-weight: 500;
+    font-weight: 600;
 }
