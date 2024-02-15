@@ -57,6 +57,7 @@ span.red {
 .navigation {
     margin-left: -200px;
     color: rgb(86, 81, 81);
+    margin-top: 10px;
 }
 
 .navigation ul {
