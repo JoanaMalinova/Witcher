@@ -23,6 +23,7 @@ function LeftSide({ positionStyle }) {
                     him.
                 </p>
             </div>
+            <button className={styles["more-btn"]}>More...</button>
         </div>
     );
 }
